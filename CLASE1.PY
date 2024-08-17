@@ -1,6 +1,4 @@
-def un programa_con_numeros 
 # Solicitar al usuario el número
-# Suggested code may be subject to a license. Learn more: ~LicenseLog:4216918972.
 numero1=int(input("Ingrese el primer número: "))
 numero2=int(input("Ingrese el segundo número: "))
 numero3=int(input("Ingrese el tercer número: "))
@@ -24,3 +22,6 @@ else:
 # Imprimir el número más grande
 print("El número más grande es:", numero_mas_grande)
 print("El número más pequeño es:", numero_mas_grande)
+
+
+
