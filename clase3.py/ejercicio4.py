@@ -10,12 +10,10 @@ def generar_contrasena(longitud):
     Una cadena con la contraseña aleatoria.
   """
 
-  caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+  caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@$#"
   contrasena = ""
   for _ in range(longitud):
     contrasena += random.choice(caracteres)
   return contrasena
-
-# Llamando a la función
 nueva_contrasena = generar_contrasena(10)
 print(nueva_contrasena)
